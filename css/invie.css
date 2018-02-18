@@ -1,0 +1,245 @@
+*{
+	/*border: 1px solid red;
+	margin: 10px;
+	padding: 10px; */
+}
+
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+.background {
+	background-image: url('../images/background.png');
+	background-size: cover;
+}
+
+.button{
+	background: #fd324e;
+	background: linear-gradient(to left,#fe344e, #ff7250);
+	border-radius: 10px;
+	border: none;
+	color: white;
+	cursor: pointer;;
+	font-size: 18px;
+	padding: 5px 12px;
+	text-decoration: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+	/* background: #f3c5bd; Old browsers
+	background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); FF3.6-15
+	background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); Chrome10-25,Safari5.1-6
+	background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); IE6-9 */
+}
+
+.col1, .col2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.col1 {
+	margin-right: 15px;
+}
+
+.col2 {
+	align-items: flex-start;
+}
+
+.col2 .button{
+	margin-top: 15px;
+}
+.contact {
+	display: flex;
+	width: 290px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contact img {
+	display: block;
+}
+
+.contact strong{
+	display: block;
+}
+
+.contact a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.container {
+	margin: auto;
+	width: 800px;
+	position: relative;
+}
+
+.cover-page {
+	color: white;
+	padding: 20px;
+	height: 500px;s
+}
+
+.cover-page button {
+	margin-bottom: 70px;
+}
+
+.footer {
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form {
+	color: white;
+	display: flex;
+	width: 440px;
+}
+
+.form label, .sex, .interests {
+	margin-bottom: 10px;
+}
+.guitar {
+	/*overflow: hidden;*/
+	border: 1px solid #1F313C;
+	border-radius: 10px;
+	margin:  10px 10px 40px 10px;
+	padding: 10px;
+}
+
+.guitar.b{
+	height: 190px;
+}
+
+.guitar ol{
+	padding-left: 0;
+}
+
+.guitar-container-a {
+	padding-left: 20px;
+}
+
+.guitar-container-b {
+	margin-left: 370px;
+	position: relative;
+	bottom: 100px;
+}
+.guitars {
+	color: #1F313C;
+	margin-bottom: 70px;
+}
+
+.guitars h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+.header {
+	position: relative;
+}
+
+.image-right {
+	float: right;
+	position: relative;
+	top: -127px;
+}
+
+.image-left{
+	float: left;
+	position: relative;
+}
+
+input, textarea {
+	outline: 0;
+}
+
+input:focus, textarea:focus {
+	background: lightgray;
+}
+
+.interests label{
+	font-size: 12px;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.menu {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+
+}
+
+.menu li:before {
+	color: white;
+	content: '∘';
+	font-size: 25px;
+	line-height: 20px;
+}
+
+.sex {
+	margin-top: 10px;
+}
+
+.table {
+	margin: 50px 0;
+}
+table {
+	width: 100%;
+}
+
+table, th, td{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+th {
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.title-a {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.title-b {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.title span {
+	text-decoration: underline;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta description="Proyecto para la venta de guitarras invisibles">
+	<title>Invie - tus mejores guitarras!!</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/invie.css">
+</head>
+
+<body>
+	<section id="portada" class="cover-page  background"><!-- portada -->
+		<header id="header" class="container header"> <!-- header -->
+			<figure class="logo"> <!-- logotipo -->
+				<img src="images/invie.png" alt="logotipo invie" width="186" height="60">
+			</figure>
+
+			<nav class="menu"><!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="#guitarras">Guitarras</a>
+					</li>
+
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="container">
+			<h1 class="title">Guitarras <span>invie</span>sibles</h1><!-- titulo -->
+			<h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
+			<a href="#guitars" class="button">Conoce más</a><!-- boton -->
+		</div>
+	</section>
+
+	<section id="guitars" class="container guitars"><!-- guitarras -->
+		<h2>Nuestras guitarras</h2><!-- titulo -->
+		<article class="guitar"><!-- guitarra 1 -->
+			<img class="image-right" src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="350">
+			<div class="guitar-container-a">
+				<h3 class="title-b">Invie Acustica</h3>
+				<ol>
+					<li>Estilo vintage</li>
+					<li>Madera pura</li>
+					<li>Incliye estuche invisible de aluminio</li>
+				</ol>
+			</div>
+		</article>
+
+		<article class="guitar b"><!-- guitarra 2 -->
+			<img class="image-left" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="350">
+			<div class="guitar-container-b">
+				<h3 class="title-b">Invie Classic</h3>
+				<ol>
+					<li>Estilo vintage</li>
+					<li>Liviana</li>
+					<li>Inicia tu camino como Rockstar</li>
+				</ol>
+			</div>
+		</article>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="contact">
+				<img src="images/invie-white.png" alt="logotipo blanco">
+				<a href="tel:+564984949"><strong>Telefono</strong> <span>1124575</span></a>
+				<a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+			</div>
+
+			<form class="form">
+				<div class="col1">
+					<label for="input-name">Nombre</label>
+					<input type="text" required="" name="name" id="input-name" placeholder="Nombre" />
+					<label for="input-email">E-mail</label>
+					<input type="email" required="" name="email" id="input-email" placeholder="E-mail" />
+
+					<div class="sex">
+						<label for="input-radio-woman">
+							<input type="radio" name="sex" id="input-radio-woman" value="woman" checked >Mujer
+						</label>
+
+						<label for="input-radio-man">
+							<input type="radio" name="sex" id="input-radio-man" value="man">Hombre
+						</label>
+					</div>
+
+					<div class="interests">
+						<label for="input-checkbox-quotation">
+							<input type="checkbox" id="input-checkbox-quotation" name="interests" value="quotation" checked> Cotización
+						</label>
+
+						<label for="input-checkbox-comments">
+							<input type="checkbox" id="input-checkbox-comments" name="interests" value="comments"> Comentarios
+						</label>
+
+						<label for="input-checkbox-claims">
+							<input type="checkbox" id="input-checkbox-claims" name="interests" value="claims"> Reclamos
+						</label>
+
+						<label for="input-checkbox-others">
+							<input type="checkbox" id="input-checkbox-others" name="interests" value="others"> Otros
+						</label>
+					</div>
+				</div>
+				
+				<div class="col2">
+					<label for="textarea-comments">Comentarios</label>
+					<textarea name="comments" id="textarea-comments" cols="30" rows="7"></textarea>
+
+					<input class="button" type="submit" value="Enviar" />
+				</div>
+			</form>
+		</div>
+	</footer>
+</body>
+</html>	
